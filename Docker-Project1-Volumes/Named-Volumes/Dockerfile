@@ -10,5 +10,7 @@ COPY . .
 
 EXPOSE 80
 
+VOLUME /var/lib/docker/volumes
+
 CMD ["node", "server.js"]
 
